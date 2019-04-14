@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FriendCard from "./components/FriendCard";
+import Wrapper from "./components/Wrapper";
+import guessies from "./guessies.json";
 
 class App extends Component {
   render() {
